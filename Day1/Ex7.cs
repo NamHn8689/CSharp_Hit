@@ -16,13 +16,14 @@ namespace CSharp
             float c = float.Parse(Console.ReadLine());
 
             float t = 1, m = 1, i = 1;
+            float ex = 0;
             while ((t / m) >= c)
             {
                 ex += t / m;
                 t *= x;
                 m *= i;
                 i++;
-            }
+            }       
             Console.WriteLine("e^" + x + " = " + ex);
             Console.ReadLine();
         }
