@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharp
 {
@@ -48,7 +44,7 @@ namespace CSharp
         {
             Console.Write("Is prime: ");
             for (int i = 0; i < n; i++)
-                if (isPrime(i+1))
+                if (isPrime(i + 1))
                     Console.Write(a[i] + " ");
         }
     }
